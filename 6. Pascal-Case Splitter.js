@@ -9,6 +9,5 @@ function pascalCaseSplitter(string) {
     }
     result.push(string.slice(first));
     console.log(result.join(`, `));
-
 }
 pascalCaseSplitter(`SplitMeIfYouCanHaHaYouCantOrYouCan`);
